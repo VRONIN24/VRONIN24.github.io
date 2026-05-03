@@ -179,7 +179,7 @@ canvas.nodes-canvas{
   <div class="primary">
 	  <h2>Education</h2>
 	  
-	  <h3><u><a href="og_University_gradesheet.pdf" target="_blank" style="text-decoration: none; color: inherit;">BSc in Computer Science and Engineering</a></u></h3>
+	  <h3><u><a href="academic_certificate/og_University_gradesheet.pdf" target="_blank" style="text-decoration: none; color: inherit;">BSc in Computer Science and Engineering</a></u></h3>
 	  <p><b>Bangladesh University Of Business And Technology</b></p>
 	  <p><b>Jan 2024 – Present | CGPA: 3.37/4.00</b></p>
 	  <ul>
@@ -188,14 +188,14 @@ canvas.nodes-canvas{
 		<li>Developed foundations in problem-solving, software design and algorithms, with practical experience in programming and system-level concepts.</li>
 	  </ul>
 
-	  <h3><u><a href="og_HSC_certificate.pdf" target="_blank" style="text-decoration: none; color: inherit;">HSC - Dhaka Commerce College</a></u></h3>
+	  <h3><u><a href="academic_certificate/og_HSC_certificate.pdf" target="_blank" style="text-decoration: none; color: inherit;">HSC - Dhaka Commerce College</a></u></h3>
 	  <p><b>Jan 2022 – Nov 2023 | Science | GPA: 4.75/5.00</b></p>
 	  <ul>
 		<li>Core Subjects: Biology, Chemistry, Physics and Higher Math.</li>
 		<li>Developed a strong interest in computing, leading to a Computer Science major, while building a solid foundation in analytical thinking and scientific reasoning.</li>
 	  </ul>
 
-	  <h3><u><a href="og_SSC_certificate.pdf" target="_blank" style="text-decoration: none; color: inherit;">SSC — Green Field School</a></u></h3>
+	  <h3><u><a href="academic_certificate/og_SSC_certificate.pdf" target="_blank" style="text-decoration: none; color: inherit;">SSC — Green Field School</a></u></h3>
 	  <p><b>Jan 2019 – Dec 2021 | Science | GPA: 4.89/5.00</b></p>
 	  <ul>
 		<li>Core Subjects: Biology, Chemistry, Physics and Higher Math.</li>
@@ -242,243 +242,301 @@ canvas.nodes-canvas{
   <div class="primary" style="flex: 75%;">
     <h2>Courses & Certifications</h2>
     
-    <div style="display: flex; justify-content: left; margin-bottom: 30px;">
-        <a href="https://www.credly.com/badges/925b9f49-a0a7-41c3-8172-41f925b10bbb/public_url" 
-           target="_blank" 
-           class="badge-featured-card">
-            <img src="Google_Cybersecurity_Professional_badge.png" alt="Verified Badge">
-            <div class="badge-status">
-                <span class="dot"></span> Google Cyber Security Professinal Badge
-            </div>
-        </a>
+	<div class="badge-container">
+	    <a href="https://www.credly.com/badges/925b9f49-a0a7-41c3-8172-41f925b10bbb/public_url" 
+	       target="_blank" 
+	       class="badge-featured-card">
+	        <img src="badge/Google_Cybersecurity_Professional_badge.png" alt="Verified Badge">
+	        <div class="badge-status">
+	            <span class="dot"></span> Google Cybersecurity
+	        </div>
+	    </a>
 
-        <a href="https://www.credly.com/badges/cda70b75-a16a-44fb-8c4c-f4778f0ebd1e/public_url" 
-           target="_blank" 
-           class="badge-featured-card">
-            <img src="IBM_incident_response_and_digital_forensics_badge.png" alt="Verified Badge">
-            <div class="badge-status">
-                <span class="dot"></span> IBM Incident Response and Digital Forensics Badge
-            </div>
-        </a>
+	    <a href="https://www.credly.com/badges/cda70b75-a16a-44fb-8c4c-f4778f0ebd1e/public_url" 
+	       target="_blank" 
+	       class="badge-featured-card">
+	        <img src="badge/IBM_incident_response_and_digital_forensics_badge.png" alt="Verified Badge">
+	        <div class="badge-status">
+	            <span class="dot"></span> IBM Incident Response
+	        </div>
+	    </a>
 
-        <a href="https://www.credly.com/badges/3f6f4973-c53d-4400-bbcf-3adcb27d26f5/public_url" 
-           target="_blank" 
-           class="badge-featured-card">
-            <img src="IBM_network_security_&_database_vulnerabilities.png" alt="Verified Badge">
-            <div class="badge-status">
-                <span class="dot"></span> IBM Network Security & Database Vulnerabilities Badge
-            </div>
-        </a>
-    </div>
+	    <a href="https://www.credly.com/badges/3f6f4973-c53d-4400-bbcf-3adcb27d26f5/public_url" 
+	       target="_blank" 
+	       class="badge-featured-card">
+	        <img src="badge/IBM_network_security_&_database_vulnerabilities.png" alt="Verified Badge">
+	        <div class="badge-status">
+	            <span class="dot"></span> IBM Network Security
+	        </div>
+	    </a>
+	</div>
 
-    <style>
-      /* Badge Featured Card Styling */
-      .badge-featured-card {
-        background: rgba(255, 255, 255, 0.05);
-        padding: 20px;
-        border-radius: 20px;
-        border: 1px solid rgba(157, 240, 255, 0.3);
-        text-decoration: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-        transition: all 0.3s ease;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-        max-width: 200px;
-      }
-      
-      .badge-featured-card:hover {
-        transform: translateY(-8px) scale(1.02);
-        background: rgba(157, 240, 255, 0.1);
-        border-color: var(--accent);
-      }
+	<style>
+	  /* --- UNIVERSAL ACCENT --- */
+	  :root { --accent: #9df0ff; }
 
-      .badge-featured-card img {
-        width: 120px;
-        height: 120px;
-        filter: drop-shadow(0 0 10px rgba(157, 240, 255, 0.2));
-      }
+	  /* --- BADGE SECTION --- */
+	  .badge-container {
+	    display: flex; 
+	    justify-content: flex-start; 
+	    gap: 20px; 
+	    margin-bottom: 30px;
+	    flex-wrap: wrap;
+	  }
 
-      .badge-status {
-        color: var(--accent);
-        font-size: 0.75rem;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        display: flex;
-        align-items: center;
-        gap: 6px;
-      }
+	  .badge-featured-card {
+	    background: rgba(255, 255, 255, 0.05);
+	    padding: 20px;
+	    border-radius: 20px;
+	    border: 1px solid rgba(157, 240, 255, 0.3);
+	    text-decoration: none;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    gap: 12px;
+	    transition: all 0.3s ease;
+	    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+	    max-width: 200px;
+	    flex: 1 1 180px;
+	    -webkit-tap-highlight-color: transparent;
+	  }
+	  
+	  .badge-featured-card:hover, .badge-featured-card:active {
+	    transform: translateY(-8px) scale(1.02);
+	    background: rgba(157, 240, 255, 0.15);
+	    border-color: var(--accent);
+	  }
 
-      .dot {
-        width: 8px;
-        height: 8px;
-        background: #00ff88;
-        border-radius: 50%;
-        box-shadow: 0 0 8px #00ff88;
-        animation: pulse 2s infinite;
-      }
+	  .badge-featured-card img {
+	    width: 120px;
+	    height: 120px;
+	    filter: drop-shadow(0 0 10px rgba(157, 240, 255, 0.2));
+	  }
 
-      @keyframes pulse {
-        0% { opacity: 1; }
-        50% { opacity: 0.4; }
-        100% { opacity: 1; }
-      }
+	  .badge-status {
+	    color: var(--accent);
+	    font-size: 0.7rem;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    letter-spacing: 1px;
+	    display: flex;
+	    align-items: center;
+	    gap: 6px;
+	    text-align: center;
+	  }
 
-      /* Grid Styling */
-      .cert-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
-        gap: 15px;
-        margin-top: 20px;
-      }
+	  .dot {
+	    width: 8px; height: 8px;
+	    background: #00ff88;
+	    border-radius: 50%;
+	    box-shadow: 0 0 8px #00ff88;
+	    animation: pulse 2s infinite;
+	    flex-shrink: 0;
+	  }
 
-      .cert-card {
-        background: rgba(255, 255, 255, 0.05);
-        padding: 15px;
-        border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        display: flex;
-        gap: 15px;
-        align-items: center;
-        text-decoration: none;
-        color: inherit;
-        transition: transform 0.3s ease, background 0.3s ease;
-        overflow: hidden; 
-      }
+	  @keyframes pulse {
+	    0%, 100% { opacity: 1; }
+	    50% { opacity: 0.4; }
+	  }
 
-      section:nth-child(even) .cert-card, section:nth-child(even) .badge-featured-card {
-        background: rgba(0, 0, 0, 0.03);
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        color: #000;
-      }
+	  /* --- CERTIFICATE GRID SECTION (Consolidated) --- */
+	  .cert-grid {
+	    display: grid;
+	    /* This ensures a responsive grid of columns and rows */
+	    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	    gap: 20px;
+	    margin-top: 30px;
+	  }
 
-      .cert-card:hover {
-        transform: translateY(-5px);
-        background: rgba(157, 240, 255, 0.1);
-      }
+	  .cert-card {
+	    position: relative; /* Anchor for the tick */
+	    background: rgba(255, 255, 255, 0.05);
+	    padding: 15px;
+	    border-radius: 12px;
+	    border: 1px solid rgba(255, 255, 255, 0.1);
+	    display: flex;
+	    gap: 15px;
+	    align-items: center;
+	    text-decoration: none;
+	    color: inherit;
+	    transition: transform 0.3s ease, background 0.3s ease;
+	    overflow: visible; /* Crucial for tick visibility */
+	    -webkit-tap-highlight-color: transparent;
+	  }
 
-      .cert-img {
-        width: 65px;
-        height: 65px;
-        border-radius: 8px;
-        object-fit: cover;
-        flex-shrink: 0;
-      }
+	  .cert-card:hover, .cert-card:active {
+	    transform: translateY(-5px);
+	    background: rgba(157, 240, 255, 0.1);
+	    border-color: var(--accent);
+	  }
 
-      .cert-info { min-width: 0; }
-      .cert-info h4 { font-size: 1rem; margin-bottom: 2px; word-wrap: break-word; }
-      .cert-info p.date { font-size: 0.8rem; opacity: 0.6; margin-bottom: 5px; font-weight: bold; }
-      .cert-info p.desc { font-size: 0.85rem; line-height: 1.3; opacity: 0.9; margin-bottom: 0; }
+	  .cert-img {
+	    width: 65px;
+	    height: 65px;
+	    border-radius: 8px;
+	    object-fit: contain;
+	    flex-shrink: 0;
+	  }
 
-      /* Mobile Specific Adjustments */
-      @media(max-width: 480px) {
-        .cert-card { padding: 10px; gap: 10px; }
-        .cert-img { width: 50px; height: 50px; }
-        .cert-info h4 { font-size: 0.9rem; }
-        .badge-featured-card { padding: 15px; max-width: 170px; }
-        .badge-featured-card img { width: 100px; height: 100px; }
-      }
-    </style>
+	  /* THE TICK MARK */
+	  .cert-tick {
+	    position: absolute;
+	    width: 22px; 
+	    height: 22px;
+	    left: 58px; /* Positioned relative to 65px cert-img */
+	    top: 58px; 
+	    z-index: 5;
+	    filter: drop-shadow(0 0 2px rgba(0,0,0,0.5));
+	    pointer-events: none;
+	  }
 
-    <div class="cert-grid">
-      <a href="Google_Cyber_Security_Certificate.pdf" class="cert-card" target="_blank">
-        <img class="cert-img" src="Google_Cyber_Security_Certificate.jpg">
+	  .cert-info { min-width: 0; flex: 1; }
+	  .cert-info h4 { font-size: 1rem; margin-bottom: 4px; word-wrap: break-word; color: #fff; }
+	  .cert-info p.date { font-size: 0.8rem; opacity: 0.6; margin-bottom: 5px; font-weight: bold; color: #fff; }
+	  .cert-info p.desc { font-size: 0.85rem; line-height: 1.3; opacity: 0.9; margin-bottom: 0; color: #fff; }
+
+	  /* Alternation Logic */
+	  section:nth-child(even) .cert-card, 
+	  section:nth-child(even) .badge-featured-card {
+	    background: rgba(0, 0, 0, 0.03);
+	    border: 1px solid rgba(0, 0, 0, 0.1);
+	  }
+	  section:nth-child(even) .cert-info h4,
+	  section:nth-child(even) .cert-info p { color: #000; }
+
+	  /* --- MOBILE OPTIMIZATION --- */
+	  @media(max-width: 480px) {
+	    .badge-container { justify-content: center; gap: 15px; }
+	    .badge-featured-card { max-width: 160px; padding: 15px; flex: 1 1 140px; }
+	    .badge-featured-card img { width: 100px; height: 100px; }
+	    
+	    .cert-grid { grid-template-columns: 1fr; }
+	    .cert-card { padding: 10px; gap: 10px; }
+	    .cert-img { width: 55px; height: 55px; }
+	    .cert-tick { width: 18px; height: 18px; left: 48px; top: 48px; }
+	    .cert-info h4 { font-size: 0.9rem; }
+	    .cert-info p.desc { font-size: 0.8rem; }
+	  }
+	</style>
+
+	<div class="cert-grid">
+	  <a href="self_certificate/Google_Cyber_Security_Certificate.pdf" class="cert-card" target="_blank">
+	    <img class="cert-img" src="certificate_thumbnail/google_logo.png">
+	    <img class="cert-tick" src="certificate_thumbnail/tick.png" alt="Verified">
+	    <div class="cert-info">
+	      <h4>Google Cybersecurity Professional Certificate</h4>
+	      <p class="date">Google (Coursera) | March 2026</p>
+	      <p class="desc">Hands-on threat detection and incident response using Python, SQL, Linux and SIEM tools.</p>
+	    </div>
+	  </a>
+
+	  <a href="self_certificate/Google_Cloud_Security_Professional_Certificate.pdf" class="cert-card" target="_blank">
+		<img class="cert-img" src="certificate_thumbnail/google_cloud_logo.png" alt="Google Cloud Security Certificate">
+		<img class="cert-tick" src="certificate_thumbnail/tick.png" alt="Verified">
+		<div class="cert-info">
+		    <h4>Google Cloud Security Professional Certificate</h4>
+		    <p class="date">Google (Coursera) | May 2026</p>
+		    <p class="desc">Mastered identity and access management (IAM), network security, and data protection strategies within Google Cloud Platform.</p>
+		</div>
+	  </a>
+
+	  <a href="self_certificate/Microsoft_Cybersecurity_Analyst_Professional_Certificate.pdf" class="cert-card" target="_blank" rel="noopener noreferrer">
+	    <img class="cert-img" src="certificate_thumbnail/microsoft_logo.png" alt="Microsoft Cybersecurity Analyst Certificate">
+	    <img class="cert-tick" src="certificate_thumbnail/tick.png" alt="Verified">
+	    <div class="cert-info">
+	        <h4>Microsoft Cybersecurity Analyst Professional Certificate</h4>
+	        <p class="date">Microsoft (Coursera) | April 2026</p>
+	        <p class="desc">Utilized Microsoft Sentinel, Defender, and Azure Active Directory to perform proactive threat hunting and incident response.</p>
+	    </div>
+	  </a>
+
+      <a href="self_certificate/IBM_Cybersecurity_Analyst_Certificate.pdf" class="cert-card" target="_blank" rel="noopener noreferrer">
+        <img class="cert-img" src="certificate_thumbnail/ibm_logo.png" alt="IBM Cybersecurity Analyst Certificate">
+        <img class="cert-tick" src="certificate_thumbnail/tick.png" alt="Verified">
         <div class="cert-info">
-          <h4>Google Cybersecurity Professional Certificate</h4>
-          <p class="date">Google (Coursera) | March 2026</p>
-          <p class="desc">Hands-on threat detection and incident response using Python, SQL, Linux and SIEM tools.</p>
-        </div>
-      </a>
-
-      <a href="Google_Cloud_Security_Professional_Certificate.pdf" class="cert-card" target="_blank">
-        <img class="cert-img" src="Google_Cloud_Security_Professional_Certificate.jpg">
-        <div class="cert-info">
-          <h4>Google Cloud Security Professional Certificate</h4>
-          <p class="date">Google (Coursera) | May 2026</p>
-          <p class="desc">Learned identity and access management (IAM), network security and data protection strategies within Google Cloud Platform.</p>
-        </div>
-      </a>
-
-      <a href="Microsoft_Cybersecurity_Analyst_Professional_Certificate.pdf" class="cert-card" target="_blank">
-        <img class="cert-img" src="Microsoft_Cybersecurity_Analyst_Professional_Certificate.jpg">
-        <div class="cert-info">
-          <h4>Microsoft Cybersecurity Analyst Professional Certificate</h4>
-          <p class="date">Google (Coursera) | April 2026</p>
-          <p class="desc">Utilized Microsoft Sentinel, Defender and Azure Active Directory to perform proactive threat hunting and incident response.</p>
-        </div>
-      </a>
-
-      <a href="IBM_Cybersecurity_Analyst_Certificate.pdf" class="cert-card" target="_blank">
-        <img class="cert-img" src="IBM_Cybersecurity_Analyst_Certificate.jpg">
-        <div class="cert-info">
-          <h4>IBM Cyber Security Analyst Professional Certificate</h4>
+          <h4>IBM Cybersecurity Analyst Professional Certificate</h4>
           <p class="date">IBM (Coursera) | April 2026</p>
-          <p class="desc">Focused on incident response, threat intelligence, digital forensics, vulnerability scanning and security frameworks.</p>
+          <p class="desc">Focused on incident response, threat intelligence, digital forensics, vulnerability scanning, and security frameworks.</p>
         </div>
       </a>
 
-      <a href="IBM_Ethical_Hacking_with_Open_Source_Tools.pdf" class="cert-card" target="_blank">
-        <img class="cert-img" src="IBM_Ethical_Hacking_with_Open_Source_Tools.jpg">
+      <a href="self_certificate/IBM_Ethical_Hacking_with_Open_Source_Tools.pdf" class="cert-card" target="_blank" rel="noopener noreferrer">
+        <img class="cert-img" src="certificate_thumbnail/ibm_logo.png" alt="IBM Ethical Hacking Certificate">
+        <img class="cert-tick" src="certificate_thumbnail/tick.png" alt="Verified">
         <div class="cert-info">
           <h4>IBM Ethical Hacking with Open Source Tools Professional Certificate</h4>
           <p class="date">IBM (Coursera) | May 2026</p>
-          <p class="desc">Applied open-source tools like Nmap, Metasploit and Wireshark to perform reconnaissance, vulnerability scanning, and exploitation.</p>
+          <p class="desc">Applied open-source tools like Nmap, Metasploit, and Wireshark to perform reconnaissance, vulnerability scanning, and exploitation.</p>
         </div>
       </a>
 
-      <a href="EC_Council_Information_Security_Analyst_Certificate.pdf" class="cert-card" target="_blank">
-        <img class="cert-img" src="EC_Council_Information_Security_Analyst_Certificate.jpg">
+      <a href="self_certificate/University_of_London_Cybersecurity_Technology_and_Governance.pdf" class="cert-card" target="_blank" rel="noopener noreferrer">
+        <img class="cert-img" src="certificate_thumbnail/university_of_london_logo.png" alt="University of London Cybersecurity Certificate">
+        <img class="cert-tick" src="certificate_thumbnail/tick.png" alt="Verified">
+        <div class="cert-info">
+          <h4>Cyber Security – Technology and Governance</h4>
+          <p class="date">University of London (Coursera) | May 2026</p>
+          <p class="desc">Analyzed the intersection of security technologies and organizational policy, focusing on risk management, governance frameworks, and technical defense strategies.</p>
+        </div>
+      </a>
+
+      <a href="self_certificate/EC_Council_Information_Security_Analyst_Certificate.pdf" class="cert-card" target="_blank" rel="noopener noreferrer">
+        <img class="cert-img" src="certificate_thumbnail/ec_council_logo.png" alt="EC Council Information Security Analyst Certificate">
+        <img class="cert-tick" src="certificate_thumbnail/tick.png" alt="Verified">
         <div class="cert-info">
           <h4>EC Council Information Security Analyst Certificate</h4>
-          <p class="date">EC-Council | April 2026</p>
-          <p class="desc">Implemented security analysis techniques, log management and threat intelligence to identify and mitigate organizational risks.</p>
+          <p class="date">EC-Council (Coursera) | April 2026</p>
+          <p class="desc">Implemented security analysis techniques, log management, and threat intelligence to identify and mitigate organizational risks.</p>
         </div>
       </a>
 
-      <a href="EC_Council_CyberSecurity_Attack_and_Defense_Certificate.pdf" class="cert-card" target="_blank">
-        <img class="cert-img" src="EC_Council_CyberSecurity_Attack_and_Defense_Certificate.jpg">
+      <a href="self_certificate/EC_Council_CyberSecurity_Attack_and_Defense_Certificate.pdf" class="cert-card" target="_blank" rel="noopener noreferrer">
+        <img class="cert-img" src="certificate_thumbnail/ec_council_logo.png" alt="EC Council Attack and Defense Certificate">
+        <img class="cert-tick" src="certificate_thumbnail/tick.png" alt="Verified">
         <div class="cert-info">
           <h4>EC Council CyberSecurity Attack and Defense Certificate</h4>
-          <p class="date">EC-Council | April 2026</p>
+          <p class="date">EC-Council (Coursera) | April 2026</p>
           <p class="desc">Mastered the balance of offensive hacking techniques and defensive security controls to perform comprehensive vulnerability assessments and system hardening.</p>
         </div>
       </a>
 
-      <a href="EC_council_Ethical_Hacking_Essentials.png" class="cert-card" target="_blank">
-        <img class="cert-img" src="EC_council_Ethical_Hacking_Essentials.png">
+      <a href="self_certificate/EC_council_Ethical_Hacking_Essentials.pdf" class="cert-card" target="_blank" rel="noopener noreferrer">
+        <img class="cert-img" src="certificate_thumbnail/ec_council_logo.png" alt="Ethical Hacking Essentials Certificate">
+        <img class="cert-tick" src="certificate_thumbnail/tick.png" alt="Verified">
         <div class="cert-info">
           <h4>Ethical Hacking Essentials</h4>
           <p class="date">EC-Council | Nov 2023</p>
-          <p class="desc">Learned fundamentals of reconnaissance, scanning and vulnerability assessment.</p>
+          <p class="desc">Learned fundamentals of reconnaissance, scanning, and vulnerability assessment.</p>
         </div>
       </a>
       
-      <a href="Cisco_Networking_Basics.pdf" class="cert-card" target="_blank">
-        <img class="cert-img" src="Cisco_Networking_Basics.jpg">
+      <a href="self_certificate/Cisco_Networking_Basics.pdf" class="cert-card" target="_blank" rel="noopener noreferrer">
+        <img class="cert-img" src="certificate_thumbnail/cisco_logo.png" alt="Cisco Networking Basics Certificate">
+        <img class="cert-tick" src="certificate_thumbnail/tick.png" alt="Verified">
         <div class="cert-info">
           <h4>Networking Basics</h4>
           <p class="date">Cisco | Jan 2025</p>
-          <p class="desc">Gained knowledge of network setup, subnetting and data flow</p>
+          <p class="desc">Gained knowledge of network setup, subnetting, and data flow.</p>
         </div>
       </a>
 
-      <a href="cisco_introduction_to_cybersecurity.pdf" class="cert-card" target="_blank">
-        <img class="cert-img" src="cisco_introduction_to_cybersecurity.jpg">
+      <a href="self_certificate/cisco_introduction_to_cybersecurity.pdf" class="cert-card" target="_blank" rel="noopener noreferrer">
+        <img class="cert-img" src="certificate_thumbnail/cisco_logo.png" alt="Cisco Introduction to Cybersecurity Certificate">
+        <img class="cert-tick" src="certificate_thumbnail/tick.png" alt="Verified">
         <div class="cert-info">
           <h4>Introduction to Cybersecurity</h4>
           <p class="date">Cisco | May 2025</p>
-          <p class="desc">Developed understanding of cyber threats and protection mechanisms.</p>
+          <p class="desc">Developed an understanding of cyber threats and protection mechanisms.</p>
         </div>
       </a>
 
-      <a href="open_university_introduction_to_quantum_computing.pdf" class="cert-card" target="_blank">
-        <img class="cert-img" src="open_university_introduction_to_quantum_computing.jpg">
+      <a href="self_certificate/open_university_introduction_to_quantum_computing.pdf" class="cert-card" target="_blank" rel="noopener noreferrer">
+        <img class="cert-img" src="certificate_thumbnail/the_open_university_logo.png" alt="Introduction to Quantum Computing Certificate">
+        <img class="cert-tick" src="certificate_thumbnail/tick.png" alt="Verified">
         <div class="cert-info">
           <h4>Introduction to Quantum Computing</h4>
           <p class="date">Open University | Jan 2026</p>
-          <p class="desc">Gained foundational knowledge of qubits, superposition and entanglement.</p>
+          <p class="desc">Gained foundational knowledge of qubits, superposition, and entanglement.</p>
         </div>
       </a>
     </div>
@@ -529,8 +587,11 @@ canvas.nodes-canvas{
 <section>
   <div class="primary">
 	<h2>Voluntary Work</h2>
-	<a href="japanese_festival_2022.pdf" class="cert-link" target="_blank"><div class="certificate-container"><img class="certificate" src="japanese_festival_2022.jpg"><div><h4>BD Japanese Festival Volunteer</h4><p>Supported festival activities and coordination, gaining experience in teamwork and event execution.</p></div></div></a>
-	<a href="marvel_expo_2024.pdf" class="cert-link" target="_blank"><div class="certificate-container"><img class="certificate" src="marvel_expo_2024.jpg"><div><h4>Marvel Expo Volunteer</h4><p>Assisted with event management, logistics and visitor coordination ensuring smooth operations.</p></div></div></a>
+
+	<a href="volunteering_certficate/japanese_festival_2022.pdf" class="cert-link" target="_blank"><div class="certificate-container"><img class="certificate" src="certificate_thumbnail/japanese_festival_2022.jpg"><div><h4>BD Japanese Festival Volunteer</h4><p>Supported festival activities and coordination, gaining experience in teamwork and event execution.</p></div></div></a>
+
+	<a href="volunteering_certficate/marvel_expo_2024.pdf" class="cert-link" target="_blank"><div class="certificate-container"><img class="certificate" src="certificate_thumbnail/marvel_expo_2024.jpg"><div><h4>Marvel Expo Volunteer</h4><p>Assisted with event management, logistics and visitor coordination ensuring smooth operations.</p></div></div></a>
+
   </div>
   <div class="secondary">
 	<lottie-player src="https://lottie.host/3290dcea-e125-44b9-824d-0b5d3c612c53/D5Nhz6B9EO.json" autoplay loop></lottie-player>
